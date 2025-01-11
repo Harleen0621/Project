@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .header {
+    background:rgb(7,66,38);
+    color: white;
+    padding: 1rem 0;
+    font-style:italic;
+    font-family:cursive;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 2rem 1rem;
+    background-color: antiquewhite;
+  }
+  
+  .hero h2 {
+    color:rgb(95, 102, 54);
+    text-decoration: underline;
+  }
+  
+  .hero .btn {
+    background: #2a7a41;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .hero p{
+    font-style: italic;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+  }
+  .about h2{
+    text-decoration: underline;
+  }
+  .tips h2{
+    text-decoration: underline;
+  }
+  .resources h2{
+    text-decoration: underline;
+  }
+  
+  /* .about, .tips, .resources {
+    background: #fff;
+  }
+   */
+  .footer {
+    background:rgb(54, 102, 94);
+    color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .footer form input, .footer form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+  
+  .footer form button {
+    background: white;
+    color: #2a7a41;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  .data{
+    background-image: url("BG_img.jpg");
+    background-size:cover;
+  }
