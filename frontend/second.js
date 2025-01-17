@@ -1,5 +1,5 @@
 projectMembersIQ = {
-    "DinQ":-1,
+    "DinQ":-1000,
     "Harshu":100000
 };
 

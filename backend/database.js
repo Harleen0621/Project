@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
   port: 3306,            // default port for mysql is 3306
   database: 'foodwaste',      // database from which we want to connect our node application
   user: 'root',          // username of the mysql connection
-  password: 'Harsh@12345'       // password of the mysql connection
+  password: 'harleen@MySQL_21'       // password of the mysql connection
 });
 
 // executing connection
