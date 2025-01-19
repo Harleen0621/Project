@@ -45,7 +45,7 @@ app.use(bodyParser.json());
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',  // Use your MySQL username
-    password: 'sanjitkour@gmail.com9149',  // Use your MySQL password
+    password: 'harleen@MySQL_21',  // Use your MySQL password
     database: 'foodwaste'  // Your MySQL database name
 });
 
@@ -140,5 +140,5 @@ app.post('/login', (req, res) => {
 
 // Start the server
 app.listen(port,() => {
-    console.log('Server running at http://localhost:${port}');
+    console.log(`Server running at http://localhost:${port}`);
 });
